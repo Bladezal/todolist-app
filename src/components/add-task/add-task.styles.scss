@@ -1,0 +1,24 @@
+.add-task {
+    display: flexbox;
+
+    .custom-button {
+        min-width: 85px;
+        width: auto;
+        height: 25px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        padding: 0 15px 0 20px;
+        font-size: 10px;
+        justify-content: left;
+        border-radius: 5px;
+        margin: 15px;
+    }
+
+    .group {
+        margin: 0 15px;
+
+        .form-input {
+            font-size: 15px;
+        }
+    }
+}
